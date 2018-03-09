@@ -1,0 +1,39 @@
+.container {
+	margin-top: 200px;
+}
+
+h1 {
+	color: red;
+}
+
+span {
+	font-size: 50px;
+}
+
+
+
+td, th {
+	margin-left: 10px;
+	border: 1px #ccc solid;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 35px;
+
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+	margin-top: 300px;
+
+}
+  .test {
+  	width: 100%;
+  
+
+  }
+
+  .test2 {
+  width: 100%;
+  }
