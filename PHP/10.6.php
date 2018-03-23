@@ -31,10 +31,32 @@ class table {
 
 
    }
-}
 
+   function get (){
+
+       echo '<table border="1">';
+
+       for ($x = 0; $x < 5; $x++){
+
+           echo '<tr>';
+
+           for ($c = 0; $c <5; $c++){
+               echo '<td>'.$this->m[$x][$c];
+               echo '</td>';
+
+           }
+           echo '<tr>';
+
+       }
+       echo '</table>';
+   }
+
+
+
+}
 
 
 $p = new table();
 $p->generate();
+$p->get();
 
